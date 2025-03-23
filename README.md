@@ -47,7 +47,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [social-links-profile](https://github.com/Timex29/social-links-profile)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [social-links-profile](https://timex29.github.io/social-links-profile/)
 
 ## My process
 
