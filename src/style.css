@@ -1,31 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
   --green: hsl(75, 94%, 57%);
   --white: hsl(0, 0%, 100%);
-  
+
   --grey-700: hsl(0, 0%, 20%);
   --grey-800: hsl(0, 0%, 12%);
   --grey-900: hsl(0, 0%, 8%);
 
-  --regular-font-weight: 400;  /*regular weight*/
+  --regular-font-weight: 400; /*regular weight*/
   --semi-bold-font-weight: 600; /* Semi-bold weight */
   --bold-font-weight: 700; /* Bold weight */
-
 }
-*, 
+*,
 *::before,
-*::after{
+*::after {
   box-sizing: border-box;
 }
-#app{
-  max-width: 90rem;
+html,
+body {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
-
-body{
-  font-family: 'Inter', sans-serif;
+body {
+  font-family: "Inter", sans-serif;
   min-height: 100vh;
   line-height: 1.5;
   font-weight: var(--regular-font-weight);
@@ -36,10 +35,11 @@ body{
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 img,
 video,
-iframe{
+iframe {
   max-inline-size: 100%;
   block-size: auto;
   aspect-ratio: 2/1;
@@ -54,7 +54,7 @@ img {
   margin: 0 auto;
   display: block;
 }
- h1{
+h1 {
   font-size: clamp(1.5rem, 1.3239rem + 0.7512vw, 2rem);
   font-weight: var(--bold-font-weight);
 }
@@ -64,7 +64,7 @@ ul {
   padding: 0;
   margin: 0 auto;
 }
-ul li {  
+ul li {
   background-color: var(--grey-800);
   padding: 0.55rem 1.25rem;
   margin: 0.625rem 0;
@@ -74,20 +74,17 @@ ul li {
 }
 ul li:hover {
   transform: translateY(-0.188rem);
-  box-shadow: 0 0.375rem  0.625rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.375rem 0.625rem rgba(0, 0, 0, 0.2);
   background-color: var(--green);
   cursor: pointer;
   .social-links {
-    color: var(--grey-900);
+    color: var(--grey-900); /*-- social links color when hover--*/
   }
 }
-section{
-  font-size: clamp(0.78rem, 0.7rem + 0.38vw, 1rem);
+section {
+  font-size: clamp(0.625rem, 0.7rem + 0.38vw, 0.875rem);
+  margin-top: 2rem;
 }
-nav{
+nav {
   padding: 0 1rem;
-}
-footer{
-  margin: auto;
-  padding: 1rem;
 }

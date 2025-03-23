@@ -2,7 +2,7 @@
 
 <template>
   <main>
-    <div class="container">
+    <div class="card">
       <article>
         <div class="profile-card">
           <header>
@@ -52,13 +52,14 @@
 </template>
 
 <style scoped>
-.container {
+.card {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
   flex-direction: column;
   width: fit-content;
+  margin: 1rem;
 }
 .profile-card {
   background-color: var(--grey-700);
@@ -68,18 +69,18 @@
 }
 .location {
   color: var(--green);
-  margin-top: -1.4rem;
+  margin-top: -1.6rem;
+  font-size: clamp(0.875rem, 0.775rem + 0.38vw, 1.25rem);
   font-weight: var(--semi-bold-font-weight);
-  font-size: clamp(0.875rem, 0.765rem + 0.4695vw, 1.1875rem);
 }
 .social-links {
   color: var(--white);
   text-decoration: none;
-  font-size: clamp(0.89rem, 0.73rem + 0.75vw, 1.33rem);
+  font-size: clamp(0.89rem, 0.73rem + 0.75vw, 1rem);
   font-weight: var(--bold-font-weight);
 }
 .attribution {
-  font-size: clamp(0.78rem, 0.7rem + 0.38vw, 1rem);
+  font-size: clamp(0.78rem, 0.7rem + 0.38vw, 0.89rem);
   text-align: center;
   transition: 0.4ms;
   margin-bottom: 1rem;
