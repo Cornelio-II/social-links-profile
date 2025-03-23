@@ -72,7 +72,7 @@ I’d love to hear your thoughts and suggestions about this project! Whether it�
 
 Here’s how you can provide feedback:
 
-1. **Report an Issue**: If you encounter a bug or problem, please [open an issue](https://github.com/Timex29/blog-preview-card/issues).
+1. **Report an Issue**: If you encounter a bug or problem, please [open an issue](https://github.com/Timex30/social-links-profile/issues).
 2. **Feature Requests**: Have an idea for improvement? Let us know by creating a feature request.
 3. **Email Us**: Prefer direct communication? Feel free to send your feedback to [https://bsky.app/profile/cornelio30.bsky.social](https://bsky.app/profile/cornelio30.bsky.social).
 
