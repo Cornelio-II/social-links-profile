@@ -15,7 +15,7 @@
             <h2><p class="location">London, United Kingdom</p></h2>
           </header>
           <section>
-            <h4><p>"Front-end developer and avid reader."</p></h4>
+            <h4><p>"Front-end developer and avid reader."</p></h4 >
           </section>
           <nav>
             <ul>
