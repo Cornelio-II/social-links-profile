@@ -66,6 +66,8 @@
   border-radius: 0.625rem;
   padding: 1.25rem;
   color: var(--white);
+  box-shadow: 0.625rem 0.625rem 0.2rem rgba(0, 0, 0, 0.9);
+  overflow: hidden;
 }
 
 .social-links {
