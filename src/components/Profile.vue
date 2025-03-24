@@ -12,10 +12,10 @@
               class="profile-pic"
             />
             <h1>Jessica Randall</h1>
-            <p class="location">London, United Kingdom</p>
+            <h2><p class="location">London, United Kingdom</p></h2>
           </header>
           <section>
-            <p>"Front-end developer and avid reader."</p>
+            <h4><p>"Front-end developer and avid reader."</p></h4>
           </section>
           <nav>
             <ul>
@@ -38,7 +38,7 @@
                 >Frontend Mentor</a
               >. Coded by
               <a
-                href="https://github.com/Timex29"
+                href="https://github.com/Cornelio-II/social-links-profile"
                 class="author"
                 target="_blank"
                 >Cornelio</a
@@ -62,7 +62,7 @@
   margin: 1rem;
 }
 .profile-card {
-  background-color: var(--grey-700);
+  background-color: var(--grey-800);
   border-radius: 0.625rem;
   padding: 1.25rem;
   color: var(--white);
