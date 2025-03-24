@@ -64,7 +64,10 @@ h2 {
   font-size: clamp(0.875rem, 0.775rem + 0.38vw, 1.25rem);
   font-weight: var(--semi-bold-font-weight);
 }
-
+h3 {
+  font-size: clamp(0.625rem, 0.7rem + 0.38vw, 0.875rem);
+  margin-top: 2rem;
+}
 ul {
   list-style-type: none;
   padding: 0;
@@ -87,7 +90,4 @@ ul li:hover {
     color: var(--grey-900); /*-- social links color when hover--*/
   }
 }
-section {
-  font-size: clamp(0.625rem, 0.7rem + 0.38vw, 0.875rem);
-  margin-top: 2rem;
-}
+
