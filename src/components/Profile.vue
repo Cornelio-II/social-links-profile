@@ -12,10 +12,10 @@
               class="profile-pic"
             />
             <h1>Jessica Randall</h1>
-            <h2><p class="location">London, United Kingdom</p></h2>
+           <p><h2>London, United Kingdom</h2></p>
           </header>
           <section>
-            <h4><p>"Front-end developer and avid reader."</p></h4 >
+           <p><h4>"Front-end developer and avid reader."</h4></p>
           </section>
           <nav>
             <ul>
@@ -67,12 +67,7 @@
   padding: 1.25rem;
   color: var(--white);
 }
-.location {
-  color: var(--green);
-  margin-top: -1.6rem;
-  font-size: clamp(0.875rem, 0.775rem + 0.38vw, 1.25rem);
-  font-weight: var(--semi-bold-font-weight);
-}
+
 .social-links {
   color: var(--white);
   text-decoration: none;
