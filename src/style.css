@@ -31,7 +31,7 @@ body {
   background-color: var(--grey-900);
   display: grid;
   place-items: center;
-  transition: background-color 0.3s, color 0.3s;
+  transition: 0.5s;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

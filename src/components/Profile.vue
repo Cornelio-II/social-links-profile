@@ -12,10 +12,10 @@
               class="profile-pic"
             />
             <h1>Jessica Randall</h1>
-           <p><h2>London, United Kingdom</h2></p>
+            <h2>London, United Kingdom</h2>
           </header>
           <section>
-           <p><h3>"Front-end developer and avid reader."</h3></p>
+            <h3>"Front-end developer and avid reader."</h3>
           </section>
           <nav>
             <ul>
