@@ -11,18 +11,28 @@
   --regular-font-weight: 400; /*regular weight*/
   --semi-bold-font-weight: 600; /* Semi-bold weight */
   --bold-font-weight: 700; /* Bold weight */
+
+  --author-name-color: hsl(228, 45%, 44%);
+
+  --fluid-12-13: clamp(0.75rem, 0.7283rem + 0.1087vw, 0.8125rem);
 }
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
-html,
-body {
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
+ 
 }
+
+html, body {
+  font-weight: normal;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
   font-family: "Inter", sans-serif;
   min-height: 100vh;
@@ -31,61 +41,52 @@ body {
   background-color: var(--grey-900);
   display: grid;
   place-items: center;
-  transition: 0.5s;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
- 
+  transition: all 0.3s ease;
 }
-img,
-video,
-iframe {
-  max-inline-size: 100%;
-  block-size: auto;
+
+img{
+  display: block;
+  max-inline-size: 100%; /*-- replace max-width for internationalizaion and accessibility use cases --*/
+  max-block-size: 100%;  /* optional, limits height/block size */
+  inline-size: 8rem; /* replaces width: auto; keeps aspect ratio */ 
+  block-size: 8rem; /* replaces height: auto; keeps aspect ratio */
+  border-radius: 50%;
+  margin: 0 auto;
   aspect-ratio: 2/1;
   object-fit: cover;
   object-position: top center;
-  zoom: 1;
 }
-img {
-  border-radius: 50%;
-  width: 8rem;
-  height: 8rem;
-  margin: 0 auto;
-  display: block;
-}
+
 h1 {
-  font-size: clamp(1.5rem, 1.3239rem + 0.7512vw, 2rem);
+  font-size: clamp(1rem, 1.3rem + 1vw, 1.7rem);
   font-weight: var(--bold-font-weight);
 }
+
 h2 {
   color: var(--green);
-  margin-top: -1.6rem;
-  font-size: clamp(0.875rem, 0.775rem + 0.38vw, 1.25rem);
+  font-size: clamp(0.875rem, 0.775rem + 0.38vw, 1rem);
   font-weight: var(--semi-bold-font-weight);
 }
+
 h3 {
   font-size: clamp(0.625rem, 0.7rem + 0.38vw, 0.875rem);
   margin-top: 2rem;
 }
 ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0 auto;
 }
 ul li {
   background-color: var(--grey-700);
   padding: 0.55rem 1.25rem;
   margin: 0.625rem 0;
   border-radius: 0.625rem;
-  box-shadow: 0 0.25rem 0.375rem rbga(0, 0, 0, 0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 ul li:hover {
   transform: translateY(-0.188rem);
-  box-shadow: 0 0.375rem 0.625rem rgba(0, 0, 0, 0.2);
   background-color: var(--green);
   cursor: pointer;
+
   .social-links {
     color: var(--grey-900); /*-- social links color when hover--*/
   }

@@ -11,7 +11,3 @@ export default{
 <template>
     <Profile />
 </template>
-
-<style scoped>
-
-</style>

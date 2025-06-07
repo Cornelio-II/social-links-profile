@@ -1,4 +1,3 @@
-<script></script>
 
 <template>
   <main>
@@ -9,8 +8,7 @@
             <img
               src="/src/assets/avatar-jessica.jpeg"
               alt="Jessica Randall's Profile Picture"
-              class="profile-pic"
-            />
+              class="profile-pic"/>
             <h1>Jessica Randall</h1>
             <h2>London, United Kingdom</h2>
           </header>
@@ -27,40 +25,32 @@
             </ul>
           </nav>
         </div>
-        <footer>
-          <div class="attribution">
-            <p>
-              Challenge by
-              <a
-                href="https://www.frontendmentor.io?ref=challenge"
-                target="_blank"
-                class="author"
-                >Frontend Mentor</a
-              >. Coded by
-              <a
-                href="https://github.com/Cornelio-II/social-links-profile"
-                class="author"
-                target="_blank"
-                >Cornelio</a
-              >.
-            </p>
-          </div>
-        </footer>
       </article>
     </div>
   </main>
+  <footer>
+    <div class="attribution">
+      <p>
+         Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank" class="author">Frontend Mentor</a
+              >. Coded by
+        <a
+          href="https://github.com/Cornelio-II/social-links-profile"
+          class="author" target="_blank">Cornelio</a>.
+      </p>
+    </div>
+  </footer>
 </template>
 
 <style scoped>
 .card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   text-align: center;
-  flex-direction: column;
-  width: fit-content;
+  inline-size: fit-content; /* Use inline-size instead of width, for better responsiveness */
   margin: 1rem;
 }
+
 .profile-card {
   background-color: var(--grey-800);
   border-radius: 0.625rem;
@@ -75,16 +65,16 @@
   font-weight: var(--bold-font-weight);
 }
 .attribution {
-  font-size: clamp(0.78rem, 0.7rem + 0.38vw, 0.89rem);
+  font-size: var(--fluid-12-13);
   text-align: center;
   transition: 0.4ms;
-  margin-bottom: 1rem;
   color: var(--white);
 }
 .author {
-  color: hsl(228, 45%, 44%);
+  color: var(--author-name-color);
   text-decoration: none;
 }
+
 @media (hover: hover) {
   .author:hover {
     text-decoration: underline;
