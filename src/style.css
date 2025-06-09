@@ -45,11 +45,7 @@ body {
   background-color: var(--grey-900);
   display: grid;
   place-items: center;
-  transition: 0.5s ease-in-out;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
- 
+
 }
 img{
   max-inline-size: 100%; /*max-width: 100% for internationalization approach*/
@@ -85,15 +81,19 @@ ul li {
   padding: 0.55rem 1.25rem;
   margin: 0.625rem 0;
   border-radius: 0.625rem;
-  transition: transform 0.2s ease;
 }
-ul li:hover {
-  transform: translateY(-0.188rem);
-  background-color: var(--green);
-  cursor: pointer;
 
-  .social-links {
-    color: var(--grey-900); /*-- social links color when hover--*/
+@media (hover: hover){
+  ul li:hover {
+    transform: translateY(-0.188rem);
+    background-color: var(--green);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+
+    .social-links {
+      color: var(--grey-900); /*-- social links color when hover--*/
+    }
+
   }
+ 
 }
-

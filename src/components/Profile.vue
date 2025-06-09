@@ -22,23 +22,21 @@
           <li><a href="#" class="social-links">LinkedIn</a></li>
           <li><a href="#" class="social-links">Twitter</a></li>
           <li><a href="#" class="social-links">Instagram</a></li>
-          </ul>
+        </ul>
       </nav>
-    </article>
+      </article>
   </main>
-  <footer>
-    <div class="attribution">
-      <p>
-         Challenge by
-        <a
-          href="https://www.frontendmentor.io?ref=challenge"
-            target="_blank" class="author">Frontend Mentor</a
-              >. Coded by
-        <a
-          href="https://github.com/Cornelio-II/social-links-profile"
-          class="author" target="_blank">Cornelio</a>.
-      </p>
-    </div>
+  <footer class="attribution">
+    <p>
+      Challenge by
+     <a
+        href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank" class="author">Frontend Mentor</a
+          >. Coded by
+      <a
+        href="https://github.com/Cornelio-II/social-links-profile"
+        class="author" target="_blank">Cornelio</a>.
+    </p>
   </footer>
 </template>
 
