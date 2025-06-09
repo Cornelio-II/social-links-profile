@@ -45,17 +45,17 @@ body {
   background-color: var(--grey-900);
   display: grid;
   place-items: center;
-  transition: all 0.3s ease;
+  transition: 0.5s ease-in-out;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
 }
-
-img{
-  display: block;
-  max-inline-size: 100%; /*-- replace max-width for internationalizaion and accessibility use cases --*/
-  max-block-size: 100%;  /* optional, limits height/block size */
-  inline-size: 8rem; /* replaces width: auto; keeps aspect ratio */ 
-  block-size: 8rem; /* replaces height: auto; keeps aspect ratio */
-  border-radius: 50%;
-  margin: 0 auto;
+img,
+video,
+iframe {
+  max-inline-size: 100%;
+  block-size: auto;
   aspect-ratio: 2/1;
   object-fit: cover;
   object-position: top center;
