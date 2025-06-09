@@ -1,32 +1,30 @@
 
 <template>
-  <main>
-    <div class="card">
-      <article>
-        <div class="profile-card">
-          <header>
-            <img
-              src="/src/assets/avatar-jessica.jpeg"
-              alt="Jessica Randall's Profile Picture"
-              class="profile-pic"/>
-            <h1>Jessica Randall</h1>
-            <h2>London, United Kingdom</h2>
-          </header>
-          <section>
-            <h3>"Front-end developer and avid reader."</h3>
-          </section>
-          <nav>
-            <ul>
-              <li><a href="#" class="social-links">GitHub</a></li>
-              <li><a href="#" class="social-links">Frontend Mentor</a></li>
-              <li><a href="#" class="social-links">LinkedIn</a></li>
-              <li><a href="#" class="social-links">Twitter</a></li>
-              <li><a href="#" class="social-links">Instagram</a></li>
-            </ul>
-          </nav>
-        </div>
-      </article>
-    </div>
+  <main class="card">
+    <article class="profile-card">
+      <header>
+        <img
+          src="/src/assets/avatar-jessica.jpeg"
+            alt="Jessica Randall's Profile Picture"
+            class="profile-pic"/>
+      </header>
+      <section> 
+        <h1>Jessica Randall</h1>
+        <h2>London, United Kingdom</h2>
+      </section>
+      <section>
+        <h3>"Front-end developer and avid reader."</h3>
+      </section>
+      <nav>
+        <ul>
+          <li><a href="#" class="social-links">GitHub</a></li>
+          <li><a href="#" class="social-links">Frontend Mentor</a></li>
+          <li><a href="#" class="social-links">LinkedIn</a></li>
+          <li><a href="#" class="social-links">Twitter</a></li>
+          <li><a href="#" class="social-links">Instagram</a></li>
+          </ul>
+      </nav>
+    </article>
   </main>
   <footer>
     <div class="attribution">
@@ -61,9 +59,10 @@
 .social-links {
   color: var(--white);
   text-decoration: none;
-  font-size: clamp(0.89rem, 0.73rem + 0.75vw, 1rem);
+  font-size: var(--list-item-font-size);
   font-weight: var(--bold-font-weight);
 }
+
 .attribution {
   font-size: var(--fluid-12-13);
   text-align: center;
